@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import singer as sg
 
 response = requests.get('https://api.spacexdata.com/v4/launches')
 data = response.json()
